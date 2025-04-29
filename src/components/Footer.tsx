@@ -46,23 +46,20 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-pink-500 mr-2 mt-0.5" />
-                <span className="text-gray-600">Jl. Kecantikan No. 123, Jakarta Selatan</span>
+                <span className="text-gray-600">Jl. Ahmad Yani, Ngrandu, Baureno, Kec. Baureno, Kabupaten Bojonegoro, Jawa Timur 62192</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 text-pink-500 mr-2" />
-                <span className="text-gray-600">+62 812-3456-7890</span>
+                <span className="text-gray-600">+62 822-4558-5891</span>
               </li>
-              <li className="flex items-center">
-                <Mail className="h-5 w-5 text-pink-500 mr-2" />
-                <span className="text-gray-600">halo@CILOVHAZ.com</span>
-              </li>
+
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-200 mt-12 pt-8 text-center">
           <p className="text-gray-600 text-sm">
-            &copy; {new Date().getFullYear()} CILOVHAZ Beauty. Hak Cipta Dilindungi.
+            &copy; {new Date().getFullYear()} CILOVHAZ glowupskin. Hak Cipta Dilindungi.
           </p>
         </div>
       </div>

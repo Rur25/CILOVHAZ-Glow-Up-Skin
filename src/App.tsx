@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import ProductsSection from './components/ProductsSection';
+import GallerySection from './components/GallerySection';
 import TestimonialsSection from './components/TestimonialsSection';
 import WhyChooseUsSection from './components/WhyChooseUsSection';
 import ContactSection from './components/ContactSection';
@@ -13,7 +14,7 @@ import './styles/animations.css';
 function App() {
   useEffect(() => {
     // Update document title
-    document.title = "CILOVHAZ Beauty | Produk Perawatan Kulit Alami";
+    document.title = "CILOVHAZ Glow Up Skin | Produk Perawatan Kulit Alami";
     
     // Add scroll behavior for smooth scrolling to sections
     const handleScrollToSection = (e: MouseEvent) => {
@@ -41,6 +42,7 @@ function App() {
       <HeroSection />
       <AboutSection />
       <ProductsSection />
+      <GallerySection />
       <TestimonialsSection />
       <WhyChooseUsSection />
       <ContactSection />

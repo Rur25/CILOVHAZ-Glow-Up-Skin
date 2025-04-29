@@ -22,6 +22,7 @@ const Navbar: React.FC = () => {
     { name: 'Beranda', href: '#home' },
     { name: 'Tentang', href: '#about' },
     { name: 'Produk', href: '#products' },
+    { name: 'Galeri', href: '#gallery' },
     { name: 'Testimoni', href: '#testimonials' },
     { name: 'Mengapa Kami', href: '#why-choose-us' },
     { name: 'Kontak', href: '#contact' },
@@ -34,7 +35,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <Heart className="h-6 w-6 text-pink-500 mr-2" />
             <span className={`text-2xl font-bold ${isScrolled ? 'text-pink-600' : 'text-white'} tracking-wider`}>
-              CILOVHAZ
+              CILOVHAZ Glow Up Skin
             </span>
           </div>
 

@@ -42,13 +42,14 @@ const Button: React.FC<ButtonProps> = ({
   const baseStyle = 'rounded-md font-medium transition-all duration-300 inline-flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-opacity-50';
   const buttonStyle = `${baseStyle} ${variants[variant]} ${sizes[size]} ${fullWidth ? 'w-full' : ''} ${className}`;
 
-  // Handle WhatsApp redirection
-  const handleWhatsAppClick = () => {
-    if (whatsappNumber) {
-      const encodedMessage = encodeURIComponent(whatsappMessage);
-      window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
-    }
-  };
+ // Handle WhatsApp redirection
+const handleWhatsAppClick = () => {
+  const whatsappNumber = "6282245585891"; // Ubah 0 di awal menjadi 62 (kode negara Indonesia)
+  const whatsappMessage = "Halo, saya tertarik dengan produk Anda.";
+  const encodedMessage = encodeURIComponent(whatsappMessage);
+  window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
+};
+
 
   // If it's a WhatsApp button
   if (whatsappNumber) {

@@ -5,50 +5,50 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Sample testimonial data
 const testimonials = [
-  {
-    id: 1,
-    name: "Dewi Kusuma",
-    avatar: "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
-    rating: 5,
-    testimonial: "Serum Wajah Rose Quartz benar-benar mengubah kulit saya! Saya sudah lama berjuang dengan kulit kering, dan setelah dua minggu, kulit saya terasa sangat terhidrasi dan terlihat bercahaya.",
-    location: "Jakarta",
-    productPurchased: "Serum Wajah Rose Quartz"
+{
+    "id": 1,
+    "name": "Dewi Kusuma",
+    "avatar": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+    "rating": 5,
+    "testimonial": "Cilovhaz Facial Wash benar-benar mengubah kulit saya! Saya sudah lama berjuang dengan kulit kering, dan setelah dua minggu, kulit saya terasa sangat bersih, segar, dan tetap lembap.",
+    "location": "Jakarta",
+    "productPurchased": "Cilovhaz Facial Wash"
   },
   {
-    id: 2,
-    name: "Sinta Wijaya",
-    avatar: "https://images.pexels.com/photos/3765175/pexels-photo-3765175.jpeg",
-    rating: 5,
-    testimonial: "Saya sangat suka dengan Krim Malam Lavender Dream! Aromanya luar biasa dan benar-benar memperbaiki tekstur kulit saya. Sekarang saya bangun dengan kulit yang lembut dan halus.",
-    location: "Surabaya",
-    productPurchased: "Krim Malam Lavender Dream"
+    "id": 2,
+    "name": "Sinta Wijaya",
+    "avatar": "https://images.pexels.com/photos/3765175/pexels-photo-3765175.jpeg",
+    "rating": 5,
+    "testimonial": "Saya sangat suka dengan Cilovhaz Night Cream! Aromanya lembut dan benar-benar memperbaiki tekstur kulit saya. Sekarang saya bangun dengan kulit yang halus dan cerah.",
+    "location": "Surabaya",
+    "productPurchased": "Cilovhaz Night Cream"
   },
   {
-    id: 3,
-    name: "Rina Putri",
-    avatar: "https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg",
-    rating: 4,
-    testimonial: "Pembersih Pearl Essence sangat lembut namun efektif. Membersihkan semua makeup tanpa membuat kulit kering. Sedikit produk sudah cukup untuk hasil maksimal!",
-    location: "Bandung",
-    productPurchased: "Pembersih Pearl Essence"
+    "id": 3,
+    "name": "Rina Putri",
+    "avatar": "https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg",
+    "rating": 4,
+    "testimonial": "Cilovhaz Facial Toner sangat lembut namun efektif. Menyegarkan kulit dan membantu mengangkat sisa makeup tanpa membuat kulit kering. Saya suka efeknya yang ringan di wajah!",
+    "location": "Bandung",
+    "productPurchased": "Cilovhaz Facial Toner"
   },
   {
-    id: 4,
-    name: "Maya Sari",
-    avatar: "https://images.pexels.com/photos/3764135/pexels-photo-3764135.jpeg",
-    rating: 5,
-    testimonial: "Saya sudah mencoba banyak produk vitamin C, tapi Masker Vitamin C Radiance benar-benar luar biasa. Noda hitam saya memudar secara nyata, dan warna kulit saya jauh lebih merata.",
-    location: "Semarang",
-    productPurchased: "Masker Vitamin C Radiance"
+    "id": 4,
+    "name": "Maya Sari",
+    "avatar": "https://images.pexels.com/photos/3764135/pexels-photo-3764135.jpeg",
+    "rating": 5,
+    "testimonial": "Saya sudah mencoba banyak day cream, tapi Cilovhaz Day Cream benar-benar luar biasa. Kulit saya jadi tampak lebih cerah dan terlindungi sepanjang hari tanpa terasa berat.",
+    "location": "Semarang",
+    "productPurchased": "Cilovhaz Day Cream"
   },
   {
-    id: 5,
-    name: "Anita Permata",
-    avatar: "https://images.pexels.com/photos/3764151/pexels-photo-3764151.jpeg",
-    rating: 5,
-    testimonial: "Eksfoliator Cherry Blossom sangat cocok untuk kulit sensitif saya. Mengeksfoliasi dengan lembut tanpa iritasi, dan aromanya sangat menenangkan!",
-    location: "Yogyakarta",
-    productPurchased: "Eksfoliator Cherry Blossom"
+    "id": 5,
+    "name": "Anita Permata",
+    "avatar": "https://images.pexels.com/photos/3764151/pexels-photo-3764151.jpeg",
+    "rating": 5,
+    "testimonial": "Cilovhaz Facial Wash sangat cocok untuk kulit sensitif saya. Membersihkan dengan lembut tanpa iritasi, dan memberikan rasa segar setelah digunakan!",
+    "location": "Yogyakarta",
+    "productPurchased": "Cilovhaz Facial Wash"
   }
 ];
 

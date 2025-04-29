@@ -7,10 +7,15 @@ const HeroSection: React.FC = () => {
       {/* Background Image */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat" 
-        style={{ 
-          backgroundImage: "url('https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg')",
-          filter: "brightness(0.7)"
-        }}
+      style={{
+  backgroundImage: "url('https://images.pexels.com/photos/3373716/pexels-photo-3373716.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+  backgroundSize: "cover",         // Gambar menutupi seluruh container
+  backgroundPosition: "center",     // Fokus gambar di tengah
+  backgroundRepeat: "no-repeat",    // Gambar tidak diulang
+  filter: "brightness(0.7)",
+  width: "100%",                    // Pastikan div selebar container
+  height: "100%"                    // Sesuaikan juga tinggi, misal parent container sudah fix
+}}
       />
       
       {/* Gradient Overlay */}

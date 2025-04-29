@@ -26,7 +26,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-800">Lokasi Kami</h4>
-                  <p className="text-gray-600 mt-1">Jl. Kecantikan No. 123, Jakarta Selatan</p>
+                  <p className="text-gray-600 mt-1">Jl. Ahmad Yani, Ngrandu, Baureno, Kec. Baureno, Kabupaten Bojonegoro, Jawa Timur 62192</p>
                 </div>
               </div>
               
@@ -36,19 +36,11 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-800">Nomor Telepon</h4>
-                  <p className="text-gray-600 mt-1">+62 812-3456-7890</p>
+                  <p className="text-gray-600 mt-1">+62 822-4558-5891</p>
                 </div>
               </div>
               
-              <div className="flex items-start">
-                <div className="bg-pink-100 p-3 rounded-full text-pink-500 mr-4">
-                  <Mail size={20} />
-                </div>
-                <div>
-                  <h4 className="font-medium text-gray-800">Email</h4>
-                  <p className="text-gray-600 mt-1">halo@cilovhaz.com</p>
-                </div>
-              </div>
+            
               
               <div className="flex items-start">
                 <div className="bg-pink-100 p-3 rounded-full text-pink-500 mr-4">
@@ -56,8 +48,8 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium text-gray-800">Jam Operasional</h4>
-                  <p className="text-gray-600 mt-1">Senin - Jumat: 09.00 - 18.00</p>
-                  <p className="text-gray-600">Sabtu: 10.00 - 16.00</p>
+                  <p className="text-gray-600 mt-1">setiap hari: 07.00 - 21.00</p>
+                  
                 </div>
               </div>
             </div>
@@ -65,7 +57,7 @@ const ContactSection: React.FC = () => {
             {/* Map or Image */}
             <div className="mt-8 rounded-xl overflow-hidden shadow-md h-64 bg-gray-200">
               <img 
-                src="https://images.pexels.com/photos/3735149/pexels-photo-3735149.jpeg" 
+                src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kb8bQ3m2fhrQAN3JlovqUg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=200.69621&pitch=0&thumbfov=100" 
                 alt="Lokasi toko" 
                 className="w-full h-full object-cover"
               />

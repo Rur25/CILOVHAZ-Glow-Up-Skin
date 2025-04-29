@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
           <div className="relative">
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/6621489/pexels-photo-6621489.jpeg" 
+                src="https://i.pinimg.com/736x/07/98/3e/07983efe162e49a35e3346468c2dff77.jpg" 
                 alt="Bahan-bahan alami untuk perawatan kulit" 
                 className="w-full h-auto object-cover"
               />
